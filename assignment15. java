@@ -1,0 +1,25 @@
+class Animal {
+    String name;
+    int age;
+
+    Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Overriding toString() from Object class
+    @Override
+    public String toString() {
+        return "Animal{name='" + name + "', age=" + age + "}";
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Animal animal = new Animal("Dog", 5);
+
+        // Automatically calls the overridden toString()
+        System.out.println(animal);
+    }
+}
