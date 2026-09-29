@@ -1,0 +1,91 @@
+abstract class Shape {
+
+    // Abstract method
+    abstract void area();
+
+    // Common method
+    void display() {
+        System.out.println("This is a shape");
+    }
+}
+
+// First subclass
+class Circle extends Shape {
+
+    double radius;
+
+    Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    void area() {
+        double result = Math.PI * radius * radius;
+        System.out.println("Area of Circle: " + result);
+    }
+}
+
+// Second subclass
+class Rectangle extends Shape {
+
+    double length;
+    double width;
+
+    Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    @Override
+    void area() {
+        double result = length * width;
+        System.out.println("Area of Rectangle: " + result);
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Shape s1 = new Circle(5);
+        Shape s2 = new Rectangle(10, 4);
+
+        s1.display();
+        s1.area();
+
+        s2.display();
+        s2.area();
+    }
+}
+
+Output
+This is a shape
+Area of Circle: 78.53981633974483
+This is a shape
+Area of Rectangle: 40.0
+
+How abstraction works
+              Shape
+             /     \
+            /       \
+       Circle      Rectangle
+          |             |
+     area()          area()
+     π × r²          length × width
+
+
+The important part is that Shape only defines what operation should exist:
+
+abstract void area();
+
+
+The subclasses decide how to perform it:
+
+// Circle
+area = Math.PI * radius * radius;
+
+// Rectangle
+area = length * width;
+
+
+So the same method area() has different functionality in different subclasses. This is abstraction along with method overriding and runtime polymorphism.
