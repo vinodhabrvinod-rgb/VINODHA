@@ -11,3 +11,4 @@ write code for selection sort and insertion sort
 counting vowels in string
 reuessing an array in place
 find the 2nd largest element
+write a java code to create hierarchy with class animal sub class dog, for rabbit
