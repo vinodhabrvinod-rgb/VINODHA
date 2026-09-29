@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class Main {
+
+    public static int countAnagramicGroups(String[] strings) {
+        HashSet<String> groups = new HashSet<>();
+
+        for (String str : strings) {
+            char[] chars = str.toCharArray();
+
+            // Sort characters to create the anagram signature
+            Arrays.sort(chars);
+
+            groups.add(new String(chars));
+        }
+
+        return groups.size();
+    }
+
+    public static void main(String[] args) {
+
+        String[] strings = {
+            "eat",
+            "tea",
+            "ate",
+            "dog",
+            "god",
+            "cat"
+        };
+
+        System.out.println(countAnagramicGroups(strings));
+    }
+}
