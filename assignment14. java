@@ -1,0 +1,36 @@
+class Animal {
+    void eat() {
+        System.out.println("Animal is eating");
+    }
+
+    void sleep() {
+        System.out.println("Animal is sleeping");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog is barking");
+    }
+}
+
+class Rabbit extends Animal {
+    void hop() {
+        System.out.println("Rabbit is hopping");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Dog dog = new Dog();
+        dog.eat();      // inherited from Animal
+        dog.sleep();    // inherited from Animal
+        dog.bark();    // Dog's own method
+
+        Rabbit rabbit = new Rabbit();
+        rabbit.eat();   // inherited from Animal
+        rabbit.sleep(); // inherited from Animal
+        rabbit.hop();   // Rabbit's own method
+    }
+}
