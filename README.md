@@ -17,3 +17,4 @@ write a java code to implement the abstraction by using shapes and 2 sub classes
 managing a To-Do list adding removing, and iterating over a simple arraylist of tasks
 accessing and removing elements in a linkedlist by using its oprerations
 write a java program by using try catch and finally block for any arithmetic exception or array index out of bound exception
+give for array of integers, return the number of distinct absolute values among the elements of the array absolute of any value is defined as its positive equivalent. ABS(-5)=ABS(5)=5 or mathematically |-5|=|5|=1 give for java code
