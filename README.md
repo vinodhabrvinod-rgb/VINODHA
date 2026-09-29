@@ -10,3 +10,4 @@ find the largest element in array
 write code for selection sort and insertion sort
 counting vowels in string
 reuessing an array in place
+find the 2nd largest element
