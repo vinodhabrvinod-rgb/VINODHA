@@ -9,3 +9,4 @@ write a code by splitting a sentence into word and then rebuilt it in new format
 find the largest element in array
 write code for selection sort and insertion sort
 counting vowels in string
+reuessing an array in place
