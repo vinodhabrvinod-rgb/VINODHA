@@ -14,3 +14,4 @@ find the 2nd largest element
 write a java code to create hierarchy with class animal sub class dog, for rabbit
 write java code for method overridding a string where rech class inherits to string from object and overrides that to see how the object can be printed
 write a java code to implement the abstraction by using shapes and 2 sub classes which can have the functionality in different ways
+managing a To-Do list adding removing, and iterating over a simple arraylist of tasks
