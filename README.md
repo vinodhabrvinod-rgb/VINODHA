@@ -18,3 +18,4 @@ managing a To-Do list adding removing, and iterating over a simple arraylist of 
 accessing and removing elements in a linkedlist by using its oprerations
 write a java program by using try catch and finally block for any arithmetic exception or array index out of bound exception
 give for array of integers, return the number of distinct absolute values among the elements of the array absolute of any value is defined as its positive equivalent. ABS(-5)=ABS(5)=5 or mathematically |-5|=|5|=1 give for java code
+given an array of integers and an integer target, print indices of the two numbers such that the numbers add up to target. you may assume that each input would have exactly one solution, and you may not use the same element twice. you must print the answer indices in ascending order. if no such pair exists, return[-1,-1],
