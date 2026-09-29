@@ -6,3 +6,4 @@ find the  sum and average of the array
 code for adding rows in matrix
 write a code by using 3 methods of string
 write a code by splitting a sentence into word and then rebuilt it in new format code for fibonacci with recursion
+find the largest element in array
