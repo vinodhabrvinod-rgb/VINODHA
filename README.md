@@ -12,3 +12,4 @@ counting vowels in string
 reuessing an array in place
 find the 2nd largest element
 write a java code to create hierarchy with class animal sub class dog, for rabbit
+write java code for method overridding a string where rech class inherits to string from object and overrides that to see how the object can be printed
