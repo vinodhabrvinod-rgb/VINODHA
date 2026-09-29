@@ -1,0 +1,24 @@
+public class SentenceWords {
+    public static void main(String[] args) {
+
+        String sentence = "Java is easy to learn";
+
+        // Split sentence into words
+        String[] words = sentence.split(" ");
+
+        System.out.println("Words:");
+
+        for (String word : words) {
+            System.out.println(word);
+        }
+
+        // Rebuild sentence in new format
+        String newSentence = "";
+
+        for (String word : words) {
+            newSentence = newSentence + word.toUpperCase() + "-";
+        }
+
+        System.out.println("New format: " + newSentence);
+    }
+}
