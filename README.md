@@ -22,3 +22,4 @@ given an array of integers and an integer target, print indices of the two numbe
 you are N strings of length M, count the number of anagramic groups. an anagramic group is a list of stings which are anagramics of each other, two strings are considered as anagramics of each other if both the stringd are permutations of each other
 code for finding the largest element in an array
 write a SQL  queue for creating a student table which has roll no,name,age,date of birth,email id,phone number and address and the primary keys are students id,name,email id and phone number should not be null and insert any three records into the table
+code for reversing an array in place
